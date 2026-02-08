@@ -1,0 +1,92 @@
+{
+  "habits": [
+    {
+      "id": "habit-1",
+      "name": "Morning stretch",
+      "description": "5 minutes of mobility",
+      "difficulty": 2,
+      "estimatedMinutes": 10,
+      "category": "Health",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "Two stretches",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    },
+    {
+      "id": "habit-2",
+      "name": "Read 10 pages",
+      "description": "Wind down with reading",
+      "difficulty": 3,
+      "estimatedMinutes": 20,
+      "category": "Mind",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "Read 2 pages",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    },
+    {
+      "id": "habit-3",
+      "name": "Deep work sprint",
+      "description": "25-minute focus block",
+      "difficulty": 4,
+      "estimatedMinutes": 25,
+      "category": "Focus",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "5-minute setup",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    },
+    {
+      "id": "habit-4",
+      "name": "Hydration",
+      "description": "Finish 2 liters of water",
+      "difficulty": 1,
+      "estimatedMinutes": 5,
+      "category": "Health",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "Drink one glass",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    },
+    {
+      "id": "habit-5",
+      "name": "Strength circuit",
+      "description": "Bodyweight workout",
+      "difficulty": 4,
+      "estimatedMinutes": 30,
+      "category": "Strength",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "One set",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    },
+    {
+      "id": "habit-6",
+      "name": "Connect",
+      "description": "Message a friend",
+      "difficulty": 2,
+      "estimatedMinutes": 5,
+      "category": "Social",
+      "schedule": { "type": "daily" },
+      "lowEnergyMinimum": "Send a quick emoji",
+      "createdAt": "2024-06-01T08:00:00.000Z",
+      "archivedAt": null
+    }
+  ],
+  "completions": [
+    { "id": "completion-1", "habitId": "habit-1", "date": "2024-06-10", "mode": "full", "createdAt": "2024-06-10T09:00:00.000Z" },
+    { "id": "completion-2", "habitId": "habit-2", "date": "2024-06-10", "mode": "full", "createdAt": "2024-06-10T09:10:00.000Z" },
+    { "id": "completion-3", "habitId": "habit-3", "date": "2024-06-10", "mode": "low_energy", "createdAt": "2024-06-10T09:20:00.000Z" },
+    { "id": "completion-4", "habitId": "habit-4", "date": "2024-06-11", "mode": "full", "createdAt": "2024-06-11T09:00:00.000Z" },
+    { "id": "completion-5", "habitId": "habit-5", "date": "2024-06-11", "mode": "full", "createdAt": "2024-06-11T09:10:00.000Z" },
+    { "id": "completion-6", "habitId": "habit-6", "date": "2024-06-11", "mode": "full", "createdAt": "2024-06-11T09:20:00.000Z" },
+    { "id": "completion-7", "habitId": "habit-1", "date": "2024-06-12", "mode": "full", "createdAt": "2024-06-12T09:00:00.000Z" },
+    { "id": "completion-8", "habitId": "habit-2", "date": "2024-06-12", "mode": "low_energy", "createdAt": "2024-06-12T09:10:00.000Z" },
+    { "id": "completion-9", "habitId": "habit-3", "date": "2024-06-13", "mode": "full", "createdAt": "2024-06-13T09:00:00.000Z" },
+    { "id": "completion-10", "habitId": "habit-4", "date": "2024-06-13", "mode": "full", "createdAt": "2024-06-13T09:10:00.000Z" },
+    { "id": "completion-11", "habitId": "habit-5", "date": "2024-06-14", "mode": "full", "createdAt": "2024-06-14T09:00:00.000Z" },
+    { "id": "completion-12", "habitId": "habit-6", "date": "2024-06-14", "mode": "full", "createdAt": "2024-06-14T09:10:00.000Z" },
+    { "id": "completion-13", "habitId": "habit-1", "date": "2024-06-15", "mode": "full", "createdAt": "2024-06-15T09:00:00.000Z" },
+    { "id": "completion-14", "habitId": "habit-2", "date": "2024-06-15", "mode": "full", "createdAt": "2024-06-15T09:10:00.000Z" }
+  ]
+}
