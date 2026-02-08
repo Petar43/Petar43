@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.high-contrast body {
+  @apply bg-black text-white;
+}
+
+.high-contrast button,
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  @apply border border-white;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  @apply outline outline-2 outline-glow outline-offset-2;
+}
+
+.no-motion * {
+  transition: none !important;
+  animation: none !important;
+}
